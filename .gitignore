@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+.env
+.venv/
+crds_cache/
+logs/
+outputs/
+*.asdf
+*.fits
+*.fits.gz
+*.ecsv
+*.log
+*.lock
+*.checkpoint.json
+.ipynb_checkpoints/
