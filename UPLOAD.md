@@ -1,29 +1,21 @@
-# Upload to GitHub
+# Publish the existing repository
 
-This package is prepared locally; it has not been published. Choose repository visibility and a license before public release.
+The GitHub remote is `jerryfinn6/roman-wfi-imaging-reduction`. The local main branch already exists. README includes the AI disclosure; LICENSE contains BSD-3-Clause for original project code. Third-party notices remain applicable.
 
-## GitHub CLI
-
-From this folder, after installing Git and GitHub CLI:
+Run from the working directory:
 
 ```bash
-git init -b main
-git add .
-git diff --cached --stat
-git commit -m "Add staged Roman WFI imaging reduction workflow"
-gh auth login
-gh repo create roman-wfi-reduction --private --source=. --remote=origin --push
+cd /Users/bangzhengsun/Downloads/roman-wfi-reduction
+git add README.md LICENSE UPLOAD.md
+git commit -m "Add AI disclosure and BSD 3-Clause license"
+git push origin main
 ```
 
-Use `--public` instead of `--private` only if you want public access. To create under an organization, use `ORGANIZATION/roman-wfi-reduction`. Add collaborators in the repository Settings → Collaborators (or organization access settings).
-
-## Without GitHub CLI
-
-Create an empty repository on GitHub, without an initial README/license/gitignore. Run the git init/add/commit commands above, then:
+Then make the existing private repository public (this exposes committed history as well):
 
 ```bash
-git remote add origin https://github.com/YOUR_ACCOUNT/roman-wfi-reduction.git
-git push -u origin main
+gh repo edit jerryfinn6/roman-wfi-imaging-reduction --visibility public --accept-visibility-change-consequences
+gh repo view jerryfinn6/roman-wfi-imaging-reduction --json url,visibility,licenseInfo
 ```
 
-Authenticate using your configured Git credential manager, a personal access token or SSH—not your GitHub account password. Review `/path/to/` placeholders and choose a license before advertising the repository as ready for general use.
+Alternatively: GitHub repository Settings → General → Danger Zone → Change repository visibility → Public. No new repository or remote is needed.

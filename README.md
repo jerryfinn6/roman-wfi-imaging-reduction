@@ -1,3 +1,5 @@
+Generative AI (ChatGPT/OpenAI GPT-6 Astra) was used in assistance to the development of this tool.
+
 # Roman WFI imaging reduction
 
 Staged SBWFI imaging procedures developed using Roman I-Sim F106 simulations. Imaging only; not grism/prism spectroscopy. This is a research workflow, not a flight-data calibration recommendation.
@@ -61,4 +63,4 @@ Large initial WCS offsets remain an unresolved simulation/reference compatibilit
 
 ## Collaboration and licensing
 
-See CONTRIBUTING.md and UPLOAD.md. No software license has been selected by the owner yet. Select a license before public redistribution; retain third-party notices in the SExtractor configuration resources. This repository does not grant licenses to upstream packages or data.
+See CONTRIBUTING.md and UPLOAD.md. Original project code is licensed under the [BSD 3-Clause License](LICENSE), copyright 2026 Bangzheng Sun. Retain third-party notices in the SExtractor configuration resources. This repository does not grant licenses to upstream packages or data.
