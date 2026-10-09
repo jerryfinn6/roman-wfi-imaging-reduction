@@ -1,8 +1,10 @@
-Generative AI (ChatGPT/OpenAI GPT-6 Astra) was used in assistance to the development of this tool.
+Disclaimer: the following generative AI were used in assistance to the development of this tool: 
+  - ChatGPT/OpenAI GPT-6 Astra
+  - Anthropic/Claude Fable 5.1
 
 # Roman WFI imaging reduction
 
-Staged SBWFI imaging procedures developed using Roman I-Sim F106 simulations. Imaging only; not grism/prism spectroscopy. This is a research workflow, not a flight-data calibration recommendation.
+Staged Roman WFI imaging procedures developed using Roman I-Sim F106 simulations. Imaging only; not grism/prism spectroscopy. This is a research workflow, not a flight-data calibration pipeline. 
 
 ## Contents
 
