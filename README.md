@@ -1,6 +1,7 @@
-Disclaimer: the following generative AI were used in assistance to the development of this tool: 
+Disclaimer: the following generative AI tools were used in assistance to the development of this tool: 
   - ChatGPT/OpenAI GPT-6 Astra
   - Anthropic/Claude Fable 5.1
+All codes/results were examined by human for their validity. 
 
 # Roman WFI imaging reduction
 
